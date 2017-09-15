@@ -13,6 +13,10 @@ else if(keyboard_check(vk_right))
 {
 	motion_set(0, 5);
 }
+else if(keyboard_check(vk_down))
+{
+	motion_set(270, 5);
+}
 else if(keyboard_check(vk_nokey))
 {
 	motion_set(0, 0);
